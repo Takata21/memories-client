@@ -3,7 +3,7 @@ import { Link } from "wouter"
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between h-20 p-2 m-4 shadow-lg">
+    <div className="flex items-center justify-between h-16 p-2 m-4 shadow-lg">
       <Link href="/">
         <a>
           <img src="/Logo.png" alt="logo" width={60} />
