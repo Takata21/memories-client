@@ -3,21 +3,15 @@ import { Link } from "wouter"
 
 function Navbar() {
   return (
-    <div className="m-4 flex items-center justify-between p-2 shadow-lg h-20">
+    <div className="flex items-center justify-between h-20 p-2 m-4 shadow-lg">
       <Link href="/">
         <a>
           <img src="/Logo.png" alt="logo" width={60} />
         </a>
       </Link>
-      <div className="pbr">
-        <form action="">
-          <input type="text" className="h-full" />
-          <button type="submit"></button>
-        </form>
-      </div>
+
       <Link href="/auth/login">
-        <a className=" bg-blue-700 p-3 rounded text-white hover:bg-blue-600 font-semibold capitalize">
-          {" "}
+        <a className="p-3 font-semibold text-white capitalize bg-blue-700 rounded hover:bg-blue-600">
           Log in
         </a>
       </Link>
