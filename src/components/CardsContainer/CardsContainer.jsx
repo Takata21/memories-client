@@ -3,14 +3,14 @@ import Card from "../Card/Card"
 
 function CardsContainer() {
   return (
-    <div className="flex flex-wrap gap-4 m-auto w-full justify-center">
+    <section className="flex flex-wrap flex-1 gap-4 ">
       <Card />
       <Card />
       <Card />
       <Card />
       <Card />
       <Card />
-    </div>
+    </section>
   )
 }
 
