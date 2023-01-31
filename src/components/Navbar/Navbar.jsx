@@ -10,7 +10,7 @@ function Navbar() {
         </a>
       </Link>
 
-      <Link href="/auth/login">
+      <Link href="/auth/signin">
         <a className="p-3 font-semibold text-white capitalize bg-blue-700 rounded hover:bg-blue-600">
           Log in
         </a>
