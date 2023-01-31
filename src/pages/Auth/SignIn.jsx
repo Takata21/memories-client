@@ -1,8 +1,7 @@
 import React from "react"
-import { HiOutlineArrowNarrowLeft } from "react-icons/hi"
 import { Link } from "wouter"
-
-export default function Register() {
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi"
+export default function signIn() {
   return (
     <section>
       <div>
@@ -23,14 +22,7 @@ export default function Register() {
                 type="text"
                 name="user"
                 id="user"
-                placeholder="Username"
-              />
-              <input
-                className="block w-full p-2 my-3 border border-gray-300 rounded-sm outline-none h-11 placeholder:text-gray-400"
-                type="email"
-                name="email"
-                id=""
-                placeholder="Email"
+                placeholder="Username or Email"
               />
               <input
                 className="block w-full p-2 my-3 border border-gray-300 rounded-sm outline-none h-11 placeholder:text-gray-400"
@@ -41,9 +33,9 @@ export default function Register() {
               />
             </div>
             <div className="flex items-center justify-end gap-5 mt-4">
-              <Link href="/auth/register">sign in</Link>
+              <Link href="/auth/register">need an account?</Link>
               <button className="px-4 py-2 text-white capitalize bg-blue-700 rounded w-23 hover:bg-blue-600">
-                Sign up
+                Sign In
               </button>
             </div>
           </form>
