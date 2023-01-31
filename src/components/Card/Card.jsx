@@ -6,7 +6,7 @@ import { BsThreeDots } from "react-icons/bs"
 function Card() {
   const like = true
   return (
-    <article className="flex flex-col shadow-2xl w-64 md:w-[300px] rounded-xl overflow-hidden ">
+    <article className="flex flex-col shadow-2xl w-[350px] md:w-[300px] rounded-xl overflow-hidden ">
       <Link href="/post/2" className="group">
         <div className="relative ">
           <img
